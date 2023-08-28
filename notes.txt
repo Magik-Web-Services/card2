@@ -1,0 +1,26 @@
+https://dash.blinq.me/onboarding/customize-card?source=onboarding
+
+
+https://jsuites.net/v4/image-cropper/rotate-and-zoom
+
+https://jsfiddle.net/spreadsheet/056jtdn4/
+
+
+https://stackblitz.com/edit/cropper-js-with-slider-example?file=index.js
+
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_ajax_serialize ::
+
+
+https://developers.google.com/maps/documentation/directions/cloud-setup
+
+jQuery(".sub_heading").each(function(){
+  console.log(jQuery(this).text())
+});
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").text($("form").serialize());
+  });
+});
+</script>

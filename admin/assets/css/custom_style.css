@@ -1,0 +1,327 @@
+:root {
+    /*DARK*/
+    --dark-bg-color: #434343;
+    --dark-text-color: #fff;
+
+}
+
+.theme-dark {
+    --color-primary: #17ed90;
+    --color-secondary: #2a2c2d;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+}
+
+.navbar-menu-wrapper.nav-right {
+    padding-right: 50px;
+}
+
+.mgn {
+    margin: 47px 1rem 1.5rem 1rem;
+}
+
+/* .navbar.fixed-top+.page-body-wrapper {
+    padding: 64px 0px;
+} */
+
+.p-2 {
+    padding: 20px !important
+}
+
+/* --add--invoice--css--Start- */
+.bdr {
+    border: 1px solid #000;
+}
+
+.shd {
+    border: 0;
+    border-radius: 0;
+    border: 2px solid #ababab;
+    box-shadow: 0px 17px 60px 25px
+}
+
+.clr {
+    background-color: #9e9e9e !important;
+    color: white;
+}
+
+/* .table th, .table td{
+    font-size: 15px !important;
+    vertical-align: middle;
+    line-height: normal;
+    white-space: nowrap;
+    padding: 10px;
+} */
+b,
+strong {
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.img-w {
+    width: 100% !important;
+}
+
+td span i {
+    font-size: 17px;
+    color: #2669ff;
+}
+
+.table-title .add-new {
+    float: right;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+
+table.table .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+table.table .form-control.error {
+    border-color: #f50000;
+}
+
+/* --add--invoice--css--End- */
+
+
+
+
+/* ----new customer---- */
+input {
+    padding: 10px !important;
+}
+
+.form-label {
+    margin-bottom: 0px;
+    margin-right: 35px;
+}
+
+.form-check-label {
+    margin-right: 21px;
+    margin-top: 3px;
+}
+
+label {
+    color: #000;
+    font-size: 15px;
+    padding: 5px 8px;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.f-nm {
+    display: flex;
+    align-items: center;
+}
+
+.f-row {
+    display: flex;
+    gap: 10px;
+    max-width: 700px;
+}
+
+.form-check .form-check-label {
+    display: block;
+    margin-left: 0px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.pd {
+    padding: 20px 0px;
+}
+
+/* ----new customer---- */
+
+/* new invoice */
+.btm-bdr {
+
+    height: 2px;
+    background-color: #dfdfdf;
+    margin: 15px 0px;
+}
+
+.card table tr th {
+    background-color: #0062ff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+/* new invoice */
+
+/* ---quotes---- */
+#container {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    background-color: #f0f1f6;
+    padding: 30px 0px;
+    font-style: normal;
+}
+
+#employee-table {
+    width: 800px;
+    border: 1px solid #aaa;
+
+}
+
+.file-up {
+    padding: 50px 0px;
+}
+
+.upload-bg {
+    background: #FFF;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+}
+
+.bg {
+    background-color: #f0f1f6;
+}
+
+/* ---quotes---- */
+/* theme */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.theme-light {
+    --color-primary: #0060df;
+    --color-secondary: #fbfbfe;
+    --color-accent: #fd6f53;
+    --font-color: #000000;
+}
+
+.theme-dark {
+    --color-primary: #17ed90;
+    --color-secondary: #2a2c2d;
+    --color-accent: #12cdea;
+    --font-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: var(--color-secondary);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    color: var(--font-color);
+    font-family: sans-serif;
+}
+
+.container button {
+    color: var(--font-color);
+    background: var(--color-primary);
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    left: 0px;
+    bottom: 4px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    box-shadow: 0 0px 15px #2020203d;
+    background: white url('https://i.ibb.co/FxzBYR9/night.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input:checked+.slider {
+    background-color: #2196f3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+    background: white url('https://i.ibb.co/7JfqXxB/sunny.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* css for mobile */
+
+@media only screen and (max-width: 767px) {
+
+    .footer {
+        padding: 0px;
+    }
+
+}
+
+/* css for mobile */
